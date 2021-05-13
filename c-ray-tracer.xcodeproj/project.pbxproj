@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		123E0C83264DA314000F147F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 123E0C82264DA314000F147F /* main.c */; };
+		12A4E6BA264DA38B001F5B34 /* Cube.c in Sources */ = {isa = PBXBuildFile; fileRef = 12A4E6B9264DA38B001F5B34 /* Cube.c */; };
+		12A4E6BD264DA39A001F5B34 /* Utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 12A4E6BC264DA39A001F5B34 /* Utility.c */; };
+		12A4E6C0264DA480001F5B34 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 12A4E6BF264DA480001F5B34 /* makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,11 @@
 /* Begin PBXFileReference section */
 		123E0C7F264DA314000F147F /* c-ray-tracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c-ray-tracer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		123E0C82264DA314000F147F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		12A4E6B9264DA38B001F5B34 /* Cube.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Cube.c; sourceTree = "<group>"; };
+		12A4E6BB264DA394001F5B34 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		12A4E6BC264DA39A001F5B34 /* Utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Utility.c; sourceTree = "<group>"; };
+		12A4E6BE264DA3A1001F5B34 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		12A4E6BF264DA480001F5B34 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,12 @@
 		123E0C81264DA314000F147F /* c-ray-tracer */ = {
 			isa = PBXGroup;
 			children = (
+				12A4E6BF264DA480001F5B34 /* makefile */,
 				123E0C82264DA314000F147F /* main.c */,
+				12A4E6BE264DA3A1001F5B34 /* Utility.h */,
+				12A4E6BC264DA39A001F5B34 /* Utility.c */,
+				12A4E6BB264DA394001F5B34 /* Cube.h */,
+				12A4E6B9264DA38B001F5B34 /* Cube.c */,
 			);
 			path = "c-ray-tracer";
 			sourceTree = "<group>";
@@ -118,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A4E6BA264DA38B001F5B34 /* Cube.c in Sources */,
+				12A4E6BD264DA39A001F5B34 /* Utility.c in Sources */,
+				12A4E6C0264DA480001F5B34 /* makefile in Sources */,
 				123E0C83264DA314000F147F /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
