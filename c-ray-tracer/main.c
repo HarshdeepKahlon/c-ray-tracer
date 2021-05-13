@@ -163,7 +163,7 @@ int main(int argc, char** argv)
     allTriangles[12] = initTriangle(floorTriangle1.p1, floorTriangle1.p2, floorTriangle1.p3);
     allTriangles[13] = initTriangle(floorTriangle2.p1, floorTriangle2.p2, floorTriangle2.p3);
     glutInit(&argc,argv);
-    glutCreateWindow("simple");
+    glutCreateWindow("Ray Tracer");
     glutDisplayFunc(display);
     glutMainLoop();
 }
